@@ -1,2 +1,6 @@
-This is just a sample text file.
-In order to generate a push to run my workflow.
+In this project, the hardest challenges were the styling and deploying.
+Even though I followed the exact way SmolJames did it, I had to change the settings to achieve the end result.
+
+The other main challenge was deploying the code into githubpages. The problem was that Vite uses a folder called dist and the Github deployment scripts were looking for a build folder.
+It as a very simple fix but it took me about 20 minutes of testing and troubleshooting to fix it.
+The best solution was to change the package.json file scripts, replacing the build for a dist option so that the final app folder was detectable by the workflow.
