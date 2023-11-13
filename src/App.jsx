@@ -15,6 +15,7 @@ function App() {
         alt='lord of the rings landscape with mountain background' className='bg-image' />
         <Dashboard />
       </main>
+      {/* There used to be a footer but it is not necessary for this project */}
     </div>
   )
 }
